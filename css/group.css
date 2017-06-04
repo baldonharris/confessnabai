@@ -1,0 +1,25 @@
+textarea
+{
+	resize: none;
+}
+
+#category
+{
+	text-align: center;
+}
+
+.image-thumbnail
+{
+	height: 64px;
+	width: 64px;
+}
+
+img.media-thumbnail
+{
+	width: 100%;
+}
+
+.hide
+{
+	display: none;
+}

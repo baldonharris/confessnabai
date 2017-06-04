@@ -1,0 +1,68 @@
+MODIFIED HTML_HELPER CODEIGNITER
+
+
+// ------------------------------------------------------------------------------------
+
+SPAN:
+
+span('harris', 'baldon');
+
+generates:
+
+<span class="harris">baldon</span>
+
+**************************************************************************************
+
+span(array('class'=>'harris', 'another'=>'attribute'), 'baldon');
+
+generates:
+
+<span class="harris" another="attribute">baldon</span>
+
+// ------------------------------------------------------------------------------------
+
+DIV:
+
+div_open('harris');
+
+generates:
+
+<div class="harris">
+
+**************************************************************************************
+
+div_open(array('class'=>'harris', 'another'=>'attribute'));
+
+generates:
+
+<div class="harris" another="attribute">
+
+// ------------------------------------------------------------------------------------
+
+DIV CLOSE:
+
+div_close();
+
+generates:
+
+</div>
+
+// ------------------------------------------------------------------------------------
+
+BUTTON:
+
+button('harris', 'baldon');
+
+generates:
+
+<button class="harris">baldon</button>
+
+**************************************************************************************
+
+button(array('class'=>'harris', 'another'=>'attribute'), 'baldon');
+
+generates:
+
+<button class="harris" another="attribute">baldon</button>
+
+// ------------------------------------------------------------------------------------

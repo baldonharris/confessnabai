@@ -1,0 +1,11 @@
+#category
+{
+	text-align: center;
+}
+
+textarea
+{
+	resize: none;
+}
+
+.navbar-nav>li>.dropdown-menu { width: 578px; }

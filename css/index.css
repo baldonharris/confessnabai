@@ -1,0 +1,34 @@
+.form-horizontal input[name="in_username"]
+{
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.form-horizontal input[type="password"]
+{
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+	/*border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;*/
+}
+
+.logo
+{
+	width: 215px;
+	margin: auto auto;
+}
+
+.share
+{
+	margin-bottom: 5%;
+}
+
+.signup
+{
+	margin-top: 3%;
+}
+
+textarea
+{
+	resize: none;
+}

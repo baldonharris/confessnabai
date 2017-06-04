@@ -1,0 +1,42 @@
+body
+{
+	background: url(../images/bimage.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+.form-horizontal input[name="in_username"]
+{
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.form-horizontal input[type="password"]
+{
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+	/*border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;*/
+}
+
+.my_container
+{
+	margin-top: 7%;
+}
+
+.jumbotron
+{
+	text-align: center;
+}
+
+#tabled
+{
+	max-height: 355px;
+	overflow: auto;
+}
+
+.navbar-nav>li>.dropdown-menu { width: 578px; }
